@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.flexbox, .content,.PostJob{
+    display: flex;
+    flex-direction: row;
+    margin-left: 156px;
+    padding-top: 40px;
+}
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+                font-size: 49px; line-height: 1.2; color: rgba(143, 88, 73, 1);
+}
+.list-group-item{
+    display: flex;
+min-height: 56px;
+width: 408px;
+align-items: center;
+justify-content: space-between;
+padding: 16px;
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 20px;
+font-weight: 400;
+line-height: 1.25;
+color: rgba(0, 0, 0, 0.9);
+}
+.S2, .S4, .S5, .S6, .S9{
+        padding-left: 156px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: rgb(250, 249, 247);
+        margin-left: -156px;
+}
+.content{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.S4{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(241, 236, 229);
+}
+h2{
+    color: black;
+    margin-right: 75px;
+    line-height: 1.25;
+    width: 408px;
+    font-size: 40px;
+}
+.contenttopics{
+    width: 50%;
+    font-size: 1.6rem; border-radius: 4px; color: rgba(0,0,0,0.6); margin-right: 12px; font-weight: 600;
+}
+.listitem, .whitelistitem, .smlistitem,  .bluelistitem{
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    text-align: left;
+    min-height: 56px;
+    height: auto;
+    width: auto;
+    float: left;
+    background-color: rgba(0,0,0,0.08) !important;
+    box-shadow: none;
+    border-radius: 28px;
+    padding: 8px 20px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    }
+    .whitelistitem{
+        background-color: transparent !important;
+        border-radius: 24px;border-style: solid; 
+        border: 0; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08)  ; overflow: hidden;
+    }
+    .listitem:hover, .whitelistitem:hover, .smlistitem:hover, .bluelistitem:hover{
+            background-color: rgba(0,0,0,0.2) !important;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-radius: 28px;
+            cursor: pointer;
+            text-decoration: underline;
+    }
+    .smlistitem:hover{
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        cursor: pointer;
+    }
+    .PostJob h2{
+        font-size: 35px;
+        line-height: 1.0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500 !important;
+    }
+    .S5{
+        background-color: white;
+    }
+
+    /* Dropdown button code */
+    .dropbtn {
+        text-align: left;
+        background-color:white;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;border-style: solid; border: 0; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08);
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+          width: 400px;
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover .dropbtn {background-color: rgba(0,0,0,0.2);}
+
+.S6{
+    background-color: rgb(255, 250, 241);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.content1{
+    background-color: rgb(255, 250, 241);
+    width: 50%;
+}
+.container{
+    display: block;
+    position: absolute;
+    left: 500px;
+    width: 940px;
+    height: 720px;
+    background-color: rgb(244, 250, 255,1) ;
+}
+iframe{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    z-index: 1;
+}
+.iframealign{
+    margin-top: 370px;
+    margin-left: 220px;
+    width: max-content;
+}
+.S7{
+    padding-bottom: 800px;
+}
+
+.S8{
+    margin-bottom: 580px;
+}
+
+.bgimage{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+}
+.content3{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    padding-left: 156px;
+    font-size: 70px;
+}
+.bluelistitem{
+    background-color: #0a66c2 !important;
+    color: white !important;
+    font-weight: 400;
+}
+.bluelistitem:hover{
+    background-color: #064481 !important ;
+}
+.lists{
+    display: flex;
+    position: absolute !important;
+    justify-content: space-evenly !important;
+    margin-left: 300px;
+}
+.list{
+    font-size: 17px;
+    width: 192px;
+    padding: 10px;
+}
+.list a{
+    color:black;
+}
+ul{
+    padding-left: 0px;
+}
+.S9{
+    padding-right: 156px;
+    height: 500px
+}
+footer{
+    margin-left: 156px;
+    background-color: white;
+    height: 50px;
+}
+footer a{
+    color: black;
+    margin-left: 20px;
+}
